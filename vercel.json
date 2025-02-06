@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/predict",
-      "destination": "http://89.110.96.166:81/predict"
+      "destination": "https://89.110.96.166:81/predict"
     }
   ]
 }
