@@ -49,3 +49,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@media (max-width: 700px) {
+  .App {
+    width: 90%;
+    margin-left: 4%;
+  } 
+}
