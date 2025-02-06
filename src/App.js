@@ -39,7 +39,7 @@ function App() {
     formData.append("file", fileInputRef.current.files[0]);
 
     try {
-      const response = await fetch("https://89.110.96.166:443/predict", {
+      const response = await fetch("http://89.110.96.166:80/predict", {
         method: "POST",
         body: formData,
       });
